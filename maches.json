@@ -1,0 +1,31 @@
+{
+  "analysis": {
+    "urls":[
+      {
+        "action": "name_to_ip",
+        "attribute": "request_name",
+        "url": "google.com"
+      },
+      {
+        "action": "dns_request_by_name",
+        "attribute": "request_name",
+        "url": "yahoo.com"
+      }
+    ],
+
+    "samples": [
+      {
+        "action":"stored_modified_file",
+        "attribute":"md5",
+        "filename":"path/to/analysis",
+        "md5":"GFSGR254GGFSDTR2T2"
+      },
+      {
+        "action":"stored_modified_file",
+        "attribute":"md5",
+        "filename":"path/to/analysis",
+        "md5":"GFSGR254GGFSDTR2T2"
+      }
+    ]
+  }
+}
